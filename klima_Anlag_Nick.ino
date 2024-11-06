@@ -85,5 +85,5 @@ void loop() {
   }
   
   // Save the toggle state to EEPROM to retain it after reset/power-off
-  EEPROM.write(1, toggle);
+  EEPROM.update(1, toggle);
 }
